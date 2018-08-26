@@ -2,6 +2,9 @@ include lineageos_alice_common
 # LG Platform
 CONFIG_MACH_MSM8996_H1_TMO_US=y
 
+# KCAL
+CONFIG_FB_MSM_MDSS_KCAL_CTRL=y
+
 # Broadcom - Wifi
 CONFIG_BCMDHD=y
 CONFIG_BCMDHD_LEGACY=y
